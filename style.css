@@ -1,0 +1,503 @@
+.nav-item{
+    padding: 7px !important;
+}
+.main_content-1{
+    display: flex;
+    
+    justify-content: center;
+    
+    margin-top: 30px;
+    
+
+}
+/* .main-content h1{
+
+    background-image: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%)
+
+} */
+ .main-content{
+    width: 70%;
+ }
+ .main-content h1 {
+   font-weight: bolder;
+   font-size: 80px !important;
+   line-height: 100px;
+   text-align: center;
+   background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+   -webkit-background-clip: text; /* For Webkit browsers like Chrome and Safari */
+   -webkit-text-fill-color: transparent; /* Make the text color transparent so the gradient shows */
+}
+
+ 
+ .main-content p{
+    margin: 16px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px
+ }
+ /* input{
+    font: inherit;
+    letter-spacing: inherit;
+   
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    
+    display: block;
+   
+    width: 100%;
+    
+    padding: 8.5px 0px 8.5px 14px;
+ } */
+  input{
+    
+    letter-spacing: inherit;
+   
+    
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    
+    width: 70%;
+    margin: auto;
+    padding: 8.5px 0px 8.5px 14px;
+
+  }
+  .input{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px
+    
+  }
+  .find_jobs{
+    background-color: rgb(104, 81, 255);
+    color: white;
+    border: none;
+    border-radius:50px;
+    padding: 7px;
+    width: 130px;
+    min-width: 64px;
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px
+
+  }
+ .searches h1{
+    font-size: 38px !important;
+ }
+ .search-content button{
+    margin: 5px !important;
+ }
+ .main-content-2wrapper{
+    margin-top: 160px;
+ }
+ .main-content-2{
+  
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
+ .main-content-2 h1{
+    font-weight: bolder;
+    font-size: 45px;
+ }
+ .main-content-2 p{
+    font-size: 20px;
+    text-align: center;
+ }
+ .card h1{
+    font-size: 18px;
+ }
+ .card{
+    height: 200px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background:  linear-gradient(180deg,#edebff,hsla(0,0%,100%,0));
+   box-shadow: 0 4px 40px #bdb2ff3d;
+   border-radius: 20px !important;
+ }
+ .card .card-content{
+    width: 80%;
+    text-align: center;
+ }
+ .card-content p{
+    font-size: 16px;
+ }
+ .card-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .cards{
+     width: 100%;
+    
+     flex-wrap: nowrap;
+ }
+
+
+
+
+ .main-content-3wrapper{
+   margin-top: 160px;
+   width: 100%;
+}
+
+ .main-content-3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
+ .main-content-3 h1{
+    font-weight: bolder;
+    font-size: 45px;
+    width: 80%;
+    margin: 0 auto;
+ }
+ .main-content-3 p{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+ }
+ .banner-img{
+   
+   width: 100%;
+   margin: 0 auto;
+ }
+ .banner-img img{
+   margin-top: 30px;
+
+ }
+ .main-content-4wrapper{
+   margin-top: 100px;
+
+ }
+ .main-content-4 h1{
+   font-weight: bolder;
+   font-size: 45px;
+   width: 100%;
+   
+}
+
+.card .card-content h1{
+   font-size:20px
+}
+
+.cards {
+   width: 100%;
+   display: flex;
+   
+   justify-content: center;
+}
+.cards2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* Default: 4 cards per row on large screens */
+.cards2 .card {
+   width: 23%; /* Adjust to ensure 4 cards fit in one row with space in between */
+   margin: 1%;
+   box-sizing: border-box;
+}
+.main-content-5wrapper{
+   margin-top: 100px;
+}
+
+.main-content-5 h1{
+   font-size: 45px;
+}
+
+.boxes {
+   margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.box {
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   width: 31%; /* 3 boxes per row with space in between */
+   margin-bottom: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 40px #bdb2ff3d;
+}
+
+.box-content {
+   width: 80%;
+}
+.box-content span{
+   color: #6a0dad; /* Purple-blue mix color */
+    background: linear-gradient(90deg, #6a0dad, #1e90ff); /* Gradient for a mix */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-header p{
+   font-weight: bold;
+}
+.box-footer p{
+   font-weight: bold;
+}
+.main-content-6wrapper{
+   margin-top: 100px;
+}
+.main-content-6{
+   width: 100%;
+}
+.images{
+   align-items: center;
+   justify-content: center;
+
+   width: 100%;
+   justify-content: space-between;
+   
+}
+.left ,.right{
+   width: 40%;
+}
+.center-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  
+   width: 2px;
+   background-color: blue;
+   height: 150px;
+}
+.left h1{
+   font-size: 45px;
+   font-weight: bolder;
+}
+.right h1{
+   font-size: 45px;
+   font-weight: bolder;
+}
+.coming-btn{
+   border: 1px solid #6b5bff !important;
+   border-radius: 20px; /* Adjust the value for desired roundness */
+    border-color: #6b5bff; /* A purple-blue border */
+    color: #6b5bff; /* A purple-blue text color */
+    padding: 10px 20px; /* Add some padding for a nicer look */
+    font-weight: bold;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.footer{
+   margin-top: 160px;
+   width:100%;
+   display: flex;
+   color: white;
+   justify-content: center;
+  
+   background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+}
+.footer-1{
+   margin-top: 100px;
+   width: 100%;
+   
+}
+.footer-content{
+   margin: auto;
+   
+   width: 82%;
+}
+
+.footer-top{
+   width: 100%;
+}
+.footer-left-top{
+   width: 40%;
+
+}
+.footer-right-top{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   float: right;
+}
+.socialmedia{
+   width: 30%;
+   margin-top:80px;
+   display: flex;
+   flex-direction: column;
+}
+.socialmedialogos{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.socialmedialogos i{
+   color: white;
+   font-size: 30px; /* Adjust this value to increase or decrease the size */
+   height: 100px;
+}
+img.white {
+   filter: invert(1) ;
+}
+.change{
+  color: #6851FF
+}
+input{
+
+   border: 1px solid rgba(182, 170, 170, 0.959);
+   outline: none;
+}
+/* Custom styles for the navbar toggler */
+.custom-toggler .navbar-toggler-icon {
+   background-image: none; /* Remove default background image */
+}
+
+
+/* Custom styles for the navbar toggler */
+.navbar-toggler {
+   border: none; /* Remove default border */
+   background-color: transparent; /* Ensure background is transparent */
+}
+
+.navbar-toggler-icon {
+   background-image: none; /* Remove default background image */
+   display: inline-block;
+   width: 30px; /* Adjust size if needed */
+   height: 30px; /* Adjust size if needed */
+   border: 1px solid grey; /* Border to make it visible */
+   border-radius: 5px; /* Optional: rounded corners */
+   position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+   content: "";
+   display: block;
+   width: 20px; /* Adjust width for the lines */
+   height: 2px; /* Adjust height for line thickness */
+   background-color: grey; /* Color of the lines */
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.navbar-toggler-icon::before {
+   top: 10px; /* Position of the top line */
+}
+
+.navbar-toggler-icon::after {
+   bottom: 10px; /* Position of the bottom line */
+}
+
+/* Optional: Add hover effect */
+.navbar-toggler:hover .navbar-toggler-icon {
+   background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+   border-color: rgba(0, 0, 0, 0.2); /* Slightly darker border on hover */
+}
+
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+   content: "";
+   display: block;
+   width: 30px; /* Adjust width if needed */
+   height: 3px; /* Adjust height for line thickness */
+   background-color: grey; /* Change the color to grey */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   transition: all 0.3s ease; /* Smooth transition effect */
+}
+:root {
+   --toggler-color: #fff; /* define the color variable */
+ }
+ 
+ .custom-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='var(--toggler-color)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+
+.custom-toggler .navbar-toggler-icon::before {
+   transform: translate(-50%, -50%) rotate(45deg); /* Rotate for cross effect */
+}
+
+.custom-toggler .navbar-toggler-icon::after {
+   transform: translate(-50%, -50%) rotate(-45deg); /* Rotate for cross effect */
+}
+
+.card,.box{
+   cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+   .cards {
+       flex-direction: row;
+       flex-wrap: wrap;
+       gap: 10px;
+   }
+
+   .card {
+       width: 48%; /* Two cards per row */
+       height: 200px;
+   }
+   .cards2 .card {
+      width: 47%; /* Adjust to ensure 2 cards fit in one row */
+      
+  }
+   .box {
+        width: 48%; /* Adjusted to fit 2 boxes per row */
+    }
+    .main-content-6wrapper{
+      display: none;
+    }
+    
+}
+
+
+
+
+
+/* Adjust cards layout for small screens */
+@media only screen and (max-width: 600px) {
+   .cards {
+      align-items: center;
+       flex-direction: column;
+       gap: 10px;
+   }
+
+   .card {
+       width: 70%; /* One card per row */
+       height: 200px;
+   }
+   .cards2 .card {
+      width: 70%; /* Ensure the card doesn't take the full width */
+      margin: 10px auto; /* Center the card with auto margins */
+  }
+  .box {
+   width: 100%; /* Full width for small screens */
+   margin-bottom: 20px;
+}
+.main-content-6wrapper{
+   display: none;
+}
+}
+   
+ 

@@ -1,0 +1,78 @@
+.boxes {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .box {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 45%; /* 3 boxes per row with space in between */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px #bdb2ff3d;
+ }
+ 
+ .box-content {
+    width: 80%;
+ }
+ .box-content span{
+    color: #6a0dad; /* Purple-blue mix color */
+     background: linear-gradient(90deg, #6a0dad, #1e90ff); /* Gradient for a mix */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .box-header p{
+    font-weight: bold;
+ }
+ .box-footer p{
+    font-weight: bold;
+ }
+ .boxes {
+    margin-top: 50px;
+    
+    
+    
+   
+  }
+  /* Medium screen and below */
+@media (max-width: 768px) {
+    .boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .box {
+      width: 100%; /* Make each box full width */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Small screen and below */
+  @media (max-width: 480px) {
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+    .box {
+      width: 100%; /* Make each box full width */
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 992px) {
+    .navbar-toggler {
+      display: none; /* Hide the toggler button */
+    }
+    .form-inline input[type="search"] {
+        width: 200px; /* adjust the width to your liking */
+      }
+      .btn-outline-success {
+        padding: 0.25rem 0.5rem; /* adjust the padding to your liking */
+        font-size: 0.8rem; /* adjust the font size to your liking */
+      }
+  }
